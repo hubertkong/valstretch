@@ -2,13 +2,13 @@
 
 :: change this command to your desired resolution and/or refresh rate
 :: (if this is a custom res, make sure it is created in NVIDIA Control Panel & alike)
-set /A stretchedWidth=1440
-set /A stretchedHeight=1080
-set /A stretchedRefreshRate=144
+set /A stretchedWidth=1280
+set /A stretchedHeight=1024
+set /A stretchedRefreshRate=60
 
-set /A normalWidth=1920
-set /A normalHeight=1080
-set /A normalRefreshRate=144
+set /A normalWidth=1680
+set /A normalHeight=1050
+set /A normalRefreshRate=60
 
 MODE CON: COLS=100 LINES=13
 echo.
